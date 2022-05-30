@@ -15,6 +15,13 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "theme.js"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "theme.js",
+    "pages/_app.jsx",
+    "components/ButtonPrimary.jsx"
+  ],
   "exclude": ["node_modules"]
 }
